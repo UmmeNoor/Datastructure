@@ -1,10 +1,10 @@
 package Datastructure.binarysearchtree.dfs;
 
-public class NodeTree {
+public class TreeNode {
     int data;
-    NodeTree left;
-    NodeTree right;
-    NodeTree(int data){
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int data){
         this.data = data;
         left = null;
         right = null;
