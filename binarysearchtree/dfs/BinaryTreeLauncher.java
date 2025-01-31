@@ -50,6 +50,8 @@ public class BinaryTreeLauncher {
 
         System.out.println("--------Max depth tree-------");
         System.out.println(binaryTree.maxDepthOfTree(binaryTree.root));
+        System.out.println("--------is balanced tree-------");
+        System.out.println(binaryTree.isBalanced(binaryTree.root));
     }
 
 }
